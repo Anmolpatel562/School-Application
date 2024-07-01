@@ -1,0 +1,36 @@
+.classDetailsContainer{
+    position: absolute;
+    top: 5rem;
+    left:35%;
+    background-color: white;
+    border-radius: 10px;
+    height: 70%;
+    width: 40%;
+    border: 1px solid rgb(203, 201, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding: 1rem;
+}
+
+.groupDetails{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cancelButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancelBtton{
+    background-color: rgb(161, 202, 239);
+    padding: .2rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    border-radius: 10px;
+    font-weight: 500;
+}

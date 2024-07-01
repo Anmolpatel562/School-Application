@@ -1,0 +1,25 @@
+.createStudentTeacherPageContainer{
+    /* background-color: red; */
+    width:80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap:2rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userGroup{
+    padding: .2rem;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    /* background-color: rgb(255, 255, 255); */
+}

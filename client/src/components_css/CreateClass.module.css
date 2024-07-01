@@ -1,0 +1,33 @@
+.createClassContainer{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.inputFieldGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.inputFields{
+    height: 35px;
+    border-radius: 5px;
+    width: 300px;
+    outline: none;
+    padding-left: .5rem;
+}
+
+.createButton{
+    background-color: rgb(161, 202, 239);
+    padding: .4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
